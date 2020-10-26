@@ -1,0 +1,70 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index1",
+			"style": {
+				"navigationBarTitleText": "明月几时有"
+			}
+		}
+	    ,{
+            "path" : "pages/index/index2",
+            "style" : {
+				"navigationBarTitleText": "把酒问青天"
+			}
+        },
+		{
+			"path" : "pages/index/index3",
+			"style" : {
+				"navigationBarTitleText": "不知天上宫阙"
+			}
+		},
+		{
+			"path" : "pages/index/index4",
+			"style" : {
+				"navigationBarTitleText": "今夕是何年",
+				"enablePullDownRefresh": true
+			}
+		}
+ 
+    ],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"tabBar":{
+		"color": "#333333",
+		"selectedColor": "#DD524D",
+		"backgroundColor": "#fff",
+		"borderStyle": "white",
+		"list": [
+			{
+				"text": "月",
+				"pagePath":"pages/index/index1",
+				"iconPath":"static/icon1.png",
+				"selectedIconPath":"static/selicon1.png"
+			},
+			{
+				"text": "思",
+				"pagePath":"pages/index/index2",
+				"iconPath":"static/icon2.png",
+				"selectedIconPath":"static/selicon2.png"
+			},
+			{
+				"text": "久",
+				"pagePath":"pages/index/index3",
+				"iconPath":"static/icon3.png",
+				"selectedIconPath":"static/selicon3.png"
+			},
+			{
+				"text": "娟",
+				"pagePath":"pages/index/index4",
+				"iconPath":"static/icon4.png",
+				"selectedIconPath":"static/selicon4.png"
+			}
+		]
+	}
+}
