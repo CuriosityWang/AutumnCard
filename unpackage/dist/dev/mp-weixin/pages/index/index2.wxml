@@ -1,0 +1,2 @@
+<view class="content"><image class="logo" src="/static/home.jpg"></image><view class="text-area"><text class="title">{{title}}</text></view><view></view><view class="text"><text>无论身在何方
+			都祝你能感受到家的温暖</text></view></view>

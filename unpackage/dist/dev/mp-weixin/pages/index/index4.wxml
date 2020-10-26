@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/index4.jpg"></image><view class="text-area"><text class="title">{{title}}</text></view><view></view><view class="text-area"><block wx:for="{{TextList}}" wx:for-item="item" wx:for-index="__i0__"><view class="box-item">{{''+item+''}}</view></block></view></view>

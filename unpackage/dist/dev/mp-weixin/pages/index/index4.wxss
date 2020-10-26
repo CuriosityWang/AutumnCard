@@ -1,0 +1,24 @@
+
+.logo {
+	height: 500rpx;
+	width: 500rpx;
+	margin-top: 200rpx;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50rpx;
+}
+.box-item{
+	height: 10px;
+	line-height: 100px;
+}
+.text-area {
+	font-size: 50rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	line-height: 70rpx;
+}
+

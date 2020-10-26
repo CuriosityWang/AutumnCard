@@ -1,0 +1,17 @@
+
+.text-area {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center; 
+	line-height: 60rpx;
+	padding-left: calc(30rpx);
+}
+.text-area1{
+/* 	display: flex;
+	justify-content: center;
+	line-height: 60rpx; */
+}
+

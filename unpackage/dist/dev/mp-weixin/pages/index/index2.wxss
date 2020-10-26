@@ -1,0 +1,21 @@
+
+.text {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 40rpx;
+	color: #e69966;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.logo {
+	height: 500rpx;
+	width: 600rpx;
+	margin-top: 200rpx;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50rpx;
+}
+
+
