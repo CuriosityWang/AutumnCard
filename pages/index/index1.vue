@@ -1,0 +1,36 @@
+<template>
+	<view class="content">
+		<image class="logo" src="/static/pic1.png"></image>
+		<view class="text-area">
+			<text class="title">{{title}}</text>
+		</view>
+		<view>
+			
+		</view>
+		<view  class="text-area">
+			<text>
+				这是一张简单的中秋贺卡
+			</text>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'Greeting Card of Mid-Autumn Festival '
+			}
+		},
+		onLoad() {
+
+		},
+		methods: {
+
+		}
+	}
+</script>
+
+<style>
+	
+</style>
